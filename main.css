@@ -6,7 +6,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     min-height: 5000px;
-    background-color: rgb(227, 225, 225);
+    background-color: #333;
 }
 
 .scroller {
@@ -15,9 +15,11 @@ body {
     top: 0;
     width: 0px;
     height: 20px;
-    background-color: rgb(2, 91, 17);
+    background-color: azure;
     z-index: 9999;
-    color: white;
+    color: #333;
+    font-weight: 600;
+
 }
 
 .down {
@@ -26,11 +28,28 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    
+    width: 224px;
     /* Add some style to the div */
-    background-color: #f1f1f1;
+    background-color: azure;
     color: #333;
     padding: 20px;
     font-size: 20px;
     border-radius: 5px;
+}
+
+.main-btn {
+    color:#333 ;
+    background-color: azure;
+    text-decoration: none;
+    font-weight: 600;
+    display: inline-block;
+    padding: 20px 20px;
+    letter-spacing: 1px;
+    border-radius: 15px ;
+    position: fixed;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+
 }
