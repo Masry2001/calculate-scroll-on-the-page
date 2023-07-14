@@ -15,7 +15,7 @@ body {
     top: 0;
     width: 0px;
     height: 20px;
-    background-color: azure;
+    background-color: aqua;
     z-index: 9999;
     color: #333;
     font-weight: 600;
@@ -28,7 +28,6 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 224px;
     /* Add some style to the div */
     background-color: azure;
     color: #333;
@@ -39,7 +38,7 @@ body {
 
 .main-btn {
     color:#333 ;
-    background-color: azure;
+    background-color: aqua;
     text-decoration: none;
     font-weight: 600;
     display: inline-block;
@@ -50,6 +49,8 @@ body {
     top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
-    
-
+    -webkit-border-radius: 15px ;
+    -moz-border-radius: 15px ;
+    -ms-border-radius: 15px ;
+    -o-border-radius: 15px ;
 }
